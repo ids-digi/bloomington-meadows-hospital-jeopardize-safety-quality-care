@@ -1,4 +1,25 @@
 data.pub_date = "20 May, 2026"
+data.bylines = {
+                "By": {
+                    "name": "IDS Staff",
+                    "email": "ids@iu.edu",
+                    "twitter": "idsnews",
+                    // "pfp": "https://pbs.twimg.com/profile_images/1499562155896619014/CUD2EvuV_400x400.jpg",
+                    // "bio": "Cate has worked at the IDS since 2019 as a reporter and designer."
+                },
+                "Design and development by": {
+                    "name": "Calvin Josenhans",
+                    "email": "cjosenha@iu.edu",
+                    "twitter": "CalvinJosenhans",
+                    // "pfp": "https://s3.amazonaws.com/snwceomedia/ids/13acda73-a88b-4fb5-bb21-8a4342e8a14c.original.jpg",
+                    // "bio": "Calvin has worked at the IDS since 2024 on the digital desk."
+                },
+                "Illustrations by": {
+                    "name": "Odessa Lyon",
+                    "email": "oolyon@iu.edu",
+                    // "twitter": "vivrao"
+                }
+            }
 // bylines
 const byline_types = ["By", "Photos by", "Design and development by", "Illustrations by"]
 let bylines_html = '';
