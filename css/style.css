@@ -13,21 +13,36 @@
   --darkgray: rgb(80, 80, 80);
 }
 
-header {
-  /* add header image below */
-  /* can use a file path before the photo is uploaded to ceo */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url('https://s3.amazonaws.com/snwceomedia/ids/2117955e-1b4c-4014-8535-e35429063a48.sized-1000x1000.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* adjusts image placement, can also be set as percentages (ex. 50% 50%) */
-  background-position: center center;
-}
 
 /* 
   SET ANY MORE STYLES YOU WANT BELOW
   Be sure to delete empty declarations
 */
 
+/* TODO: Should I style this more interesting? */
+.story-parts {
+  border: 2px solid #999999;
+  padding: 2em;
+  border-radius: 15px;
+
+}
+
+.story-parts h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.story-parts .story-nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+
+.story-parts .story-nav-links a {
+  font-size: 20px;
+}
 /* 
 TYPOGRAPHY
 */
@@ -36,10 +51,7 @@ h1 {
 
 }
 
-h2 {
-  /* second headline */
 
-}
 
 h1,
 h2 {
@@ -50,6 +62,13 @@ h2 {
   /* text color */
   color: white;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  /* second headline */
+  text-shadow: none;
+  color: black;
+  font-size: 28px;
 }
 
 .headline-container {

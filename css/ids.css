@@ -858,7 +858,7 @@ No media query for `xs` since this is the default */
     li.item {
         display: flex !important;
         align-items: center;
-        margin-left: auto;
+        /* margin-left: auto; */
     }
 
     li.item a {
