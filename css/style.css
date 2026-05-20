@@ -71,6 +71,11 @@ h1 {
 
 .grid-3 {
   display: flex;
+  img {
+    max-width: 100%;  /* Keeps it from exceeding container width */
+    height: auto;     /* Maintains aspect ratio while resizing */
+    min-width: 0;     /* Overrides the default 'min-width: auto' that prevents shrinking */
+  }
 }
 
 
