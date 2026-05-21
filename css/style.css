@@ -11,8 +11,13 @@
   /* --mycolor: #your color here; */
   --idsred: #990000;
   --darkgray: rgb(80, 80, 80);
+  --calvinred: #000000
 }
 
+.footer-row .logo path {
+    fill: var(--calvinred) !important;
+
+}
 
 /* 
   SET ANY MORE STYLES YOU WANT BELOW
@@ -21,7 +26,7 @@
 
 /* TODO: Should I style this more interesting? */
 .story-parts {
-  border: 4px solid #990000;
+  border: 4px solid var(--calvinred);
   border-left-width: 16px;
   padding: 2em;
   border-radius: 15px;
@@ -71,11 +76,13 @@ h1 {
 
 .grid-3 {
   display: flex;
-  img {
+  
+}
+
+.grid-3 img {
     max-width: 100%;  /* Keeps it from exceeding container width */
     height: auto;     /* Maintains aspect ratio while resizing */
     min-width: 0;     /* Overrides the default 'min-width: auto' that prevents shrinking */
-  }
 }
 
 
